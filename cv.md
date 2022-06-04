@@ -1,7 +1,9 @@
-[rsschool](https://rs.school/)
+
 # Aliaksandr Zozon
 ## Junior FrontEnd Developer
+
 *****
+
 #### Contact Information 
 * tel: +375 (29) 271-13-18
 * email: sashazozon1337@gmail.com
@@ -37,6 +39,7 @@ function finalGrade (exam, projects) {
     };
 ```
 *****
+
 ### Languages
 * primary English
 * basic Russian
