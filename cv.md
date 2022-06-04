@@ -7,16 +7,22 @@
 * email: sashazozon1337@gmail.com
 * telegram: @shimr.ty
 * discord: Sir sobek#8908
+
 *****
+
 ### Something about me
 I like to study and learn something new. I have active life position. Recently i started interest in technologies and i want to develop at this route. In future i want to learning JavaScript.
+
 *****
+
 ### Skills
 * Elementary Html
 * Elementary CSS
 * Elementary Git
 * Elementary Figma
+
 *****
+
 ### Code Example
 ```
 function finalGrade (exam, projects) {
@@ -34,4 +40,5 @@ function finalGrade (exam, projects) {
 ### Languages
 * primary English
 * basic Russian
+
 *****
