@@ -1,0 +1,162 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+}
+body{
+    position: relative;
+    margin: 0;
+    background: url(../images/rocks.jpg) no-repeat,
+                url(../images/ocean.jpg) no-repeat;
+    background-position: top,
+                         bottom;
+                         height: 10000px;
+}
+.container{
+    padding:0 120px;
+    max-width: 1200px;
+}
+.header{
+    height: 90px;
+    background: rgba(242, 120, 92, 0.7);
+    box-shadow: 0px 4px 4px rgba(13, 96, 111, 0.5);
+}
+.header-container{
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav{
+    width: 563px;
+}
+.nav__list{
+    width: 527px;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding: 0px;
+}
+.nav__link{
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Red Hat Text', sans-serif;
+    transition: 0.5s;
+}
+.nav__link:hover{
+    color: #0D606F;
+    font-family: 'Red Hat Text', sans-serif;
+}
+.log-in{
+    width: 103px;
+    height: 41px;
+    background-color: #0D606F;
+    border: none;
+    border-radius: 10px;
+    color:#fff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 3px rgba(13, 96, 111, 0.16);
+    font-family: 'Red Hat Text', sans-serif;
+    cursor: pointer;
+    transition: 0.5s;
+    position: relative;
+}
+.log-in:hover{
+    color: #0D606F;
+    background-color: #fff;
+    width: 105px;
+    height: 43px;
+    border: #0D606F solid 1px;
+}
+.preview-container{
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-top: 6px;
+}
+.preview__title{
+    color: #fff;
+    font-size: 82px;
+    font-family: 'Aleo', serif;
+    margin: 0;
+    font-weight: 500;
+}
+.preview__subtitle{
+    color: #fff;
+    font-size: 20px;
+    font-style: italic;
+    font-family: 'Aleo', serif;
+    margin: 0;
+}
+.search-box{
+    display: flex;
+    width: 858px;
+    justify-content: space-between;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 16px;
+    height: 59px;
+    align-items: center;
+    padding: 18px;
+}
+.search-box__text{
+    font-size: 24px;
+    color: #F2785C;
+    margin-left: 23px;
+    font-style: italic;
+    font-family: 'Aleo', serif;
+}
+.button{
+    width: 228px;
+    height: 59px;
+    border-radius: 10px;
+    border: none;
+    background: #0D606F;
+    color: #fff;
+    font-size:24px;
+    font-weight: 500;
+    font-family: 'Red Hat Text', sans-serif;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.button:hover{
+    width: 240px;
+    height: 70px;
+    color: #0D606F;
+    background-color: #fff;
+    border: #0D606F solid 1px;
+}
+.steps-container{
+    padding-top: 300px;
+}
+.title{
+    color: #F2785C;
+    font-size: 40px;
+    font-family: 'Red Hat Text', sans-serif;
+    text-align: center;
+    font-weight: 500;
+    margin: 0px;
+    margin-bottom: 40px;
+}
+.about-steps-box{
+    display: flex;
+    justify-content: space-between;
+    height: 264px;
+}
+.about-steps{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 320px;
+}
+.about-steps__image{
+    width: 100px;
+    height: 100px;
+}
+.about-steps__text{
+    font-family: 'Aleo', serif;
+    font-size: 20px;
+    color: #0D606F;
+    padding: 30px 0;
+}
