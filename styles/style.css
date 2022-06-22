@@ -1,0 +1,131 @@
+@font-face {
+	font-family: 'PatrickHand'; 
+	src: local('PatrikHand'),
+		url(../fonts/PatrickHand-Regular.ttf); 
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'PatrickHand';
+    color: #fff;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: #000;
+    scroll-behavior: smooth;
+}
+.wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+    background: #282937;
+}
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+}
+.navbar__list{
+    display: flex;
+    width: 800px;
+    justify-content: space-around;
+    font-size: 30px;
+    list-style: none;
+    padding: 20px;
+}
+.navbar__link{
+    text-decoration: none;
+    transition: 0.5s;
+}
+.navbar__link:hover{
+    text-decoration: underline;
+    color: rgb(214, 238, 56);
+}
+.profile-card{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 40px;
+}
+.profile-card__photo{
+    margin: 0 40px;
+    border-radius: 50%;
+    border: 2px solid;
+    border-color: rgb(214, 238, 56);
+}
+.profile-card__title{
+    font-size: 60px;
+    line-height: 45px;
+}
+.profile-card__subtitle{
+    color: rgb(214, 238, 56);
+}
+.container{
+    max-width: 1200px;
+    padding: 40px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container_border_right{
+    border-bottom: 2px solid rgb(214, 238, 56);
+    border-right: 2px solid rgb(214, 238, 56);
+    padding: 20px;
+    width: 600px;
+}
+.container_border_left{
+    border-top: 2px solid rgb(214, 238, 56);
+    border-left: 2px solid rgb(214, 238, 56);
+    padding: 20px;
+    width: 600px;
+}
+.about-container{
+    align-items: flex-start;
+}
+.contacts-container{
+    align-items: flex-end;
+}
+.skills-container{
+    align-items: flex-start;
+}
+.code-container{
+    align-items: flex-end;
+}
+.title{
+    font-size: 40px;
+    color: #808080;
+}
+.about__text{
+    font-size: 30px;
+}
+.list{
+    list-style: none;
+    font-size: 20px;
+}
+.list__link{
+    text-decoration: none;
+}
+.list__link:hover{
+    color: yellow;
+}
+.footer-container{
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer__item{
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.year{
+    font-size: 40px;
+    color: rgb(214, 238, 56);
+}
+.rsschool-logo{
+    width: 100px;
+}
+.git-logo{
+    width: 50px;
+}
