@@ -11,7 +11,6 @@ body{
                 url(../images/ocean.jpg) no-repeat;
     background-position: top,
                          bottom;
-                         height: 10000px;
 }
 .container{
     padding:0 120px;
@@ -121,8 +120,6 @@ body{
     transition: 0.5s;
 }
 .button:hover{
-    width: 240px;
-    height: 70px;
     color: #0D606F;
     background-color: #fff;
     border: #0D606F solid 1px;
@@ -142,7 +139,7 @@ body{
 .about-steps-box{
     display: flex;
     justify-content: space-between;
-    height: 264px;
+    height: 250px;
 }
 .about-steps{
     display: flex;
@@ -159,4 +156,145 @@ body{
     font-size: 20px;
     color: #0D606F;
     padding: 30px 0;
+}
+.variants-destinations {
+    overflow: hidden;
+}
+.variants-destinations__list{
+    width: 3500px;
+    position: relative;
+    transition: 1s;
+    left: -569px;
+}
+
+.variants-destinations__item {
+    margin: 0 30px;
+    float: left;
+    position: relative;
+}
+
+.variants-destinations__text {
+    color: #fff;
+    font-size: 32px;
+    font-family: 'Red Hat Text', sans-serif;
+    font-weight: 500;
+    display: flex;
+    position: absolute;
+    bottom: 40px;
+    left: 15px;
+    margin: 0;
+}
+
+.selection-panel {
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 40px;
+}
+
+.selection-panel-wrapper {
+    width: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.selection-panel__btn {
+    width: 20px;
+    height: 20px;
+    border: none;
+    border-radius: 50%;
+    background-color: #F2785C80;
+}
+
+.central-button {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+}
+.central-button:hover{
+    color: #fff;
+    background-color: #F2785C;
+    border: #0D606F solid 1px;
+    width: 240px;
+}
+
+.stories-container {
+    padding-top: 84px;
+    padding-bottom: 35px;
+    background: rgba(255, 255, 255, 0.7);
+}
+
+.stories-grid {
+    display: grid;
+    grid-template-columns: 34% 66%;
+    margin-top: 80px;
+    margin-bottom: 15px;
+    grid-gap: 29px 32px;
+}
+
+.stories-grid__image{
+   filter: drop-shadow(0px 4px 4px #0D606F);
+   border-radius: 16px ;
+}
+
+.stories-grid__title {
+    font-family: 'Aleo', serif;
+    color: #0D606F;
+    font-size: 35px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.stories-grid__text {
+    font-family: 'Aleo', serif;
+    color: #0D606F;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 0;
+    margin-top: 24px;
+}
+
+.stories-grid__link {
+    font-family: 'Aleo', serif;
+    color: #0D606F;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    height: 75px;
+    align-items: center;
+}
+
+.logo-rsschool {
+    width: 65px;
+    height: 50px;
+}
+
+.social {
+    width: 141px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copy__text {
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Red Hat Text', sans-serif;
+}
+
+.logo-github {
+    width: 40px;
+}
+
+.partners {
+    display: flex;
+    align-items: center;
+    width: 140px;
+    justify-content: space-evenly;
 }
